@@ -1,0 +1,42 @@
+{
+  "$id": "https://example.com/person.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Person",
+  "type": "object",
+  "properties": {
+    "Phone Number": {
+      "type": "integer",
+      "description": "The person's phone number."
+    },
+    "Address": {
+      "City": {
+        "description": "Email address",
+        "type": "string"
+      },
+      "Country": {
+        "description": "Email address",
+        "type": "string"
+      }
+    },
+    "Email": {
+      "description": "Email address",
+      "type": "string"
+    },
+    "Last Name": {
+      "description": "Phone number of the person",
+      "type": "string"
+    },
+    "Company Name": {
+      "description": "Company of the person",
+      "type": "string"
+    },
+    "First Name": {
+      "description": "First name of the person",
+      "type": "string"
+    },
+    "Role in Company": {
+      "description": "Role of the person",
+      "type": "string"
+    }
+  }
+}

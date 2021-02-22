@@ -1,0 +1,90 @@
+{
+  "name": "ReFramework RPA Challenge",
+  "description": "Robotic Enterprise Framework configured to take input from an Excel Workbook.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.Activities": "1.0.1",
+    "UiPath.Credentials.Activities": "1.1.6479.13204",
+    "UiPath.Excel.Activities": "2.9.5",
+    "UiPath.Mail.Activities": "1.9.5",
+    "UiPath.PDF.Activities": "3.3.0",
+    "UiPath.System.Activities": "20.10.3",
+    "UiPath.Testing.Activities": "[1.2.5]",
+    "UiPath.UIAutomation.Activities": "20.10.9"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.7.0.0",
+  "projectVersion": "1.0.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9c661f71-0b3d-41f3-aa17-9df668e0e67f",
+        "dataVariationFilePath": ".variations\\TestData_Tests.json",
+        "fileName": "Test\\Framework\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "eb2d4dbd-33c1-4126-99a0-aa8a6c107cb5",
+        "fileName": "Test\\Framework\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e26e5c5f-29b0-4597-986c-d58759b994a3",
+        "fileName": "Test\\Framework\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "19363443-9b7b-43e1-9287-0739bf528d2e",
+        "fileName": "Test\\Framework\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2b2a5afd-b67c-4b57-bb94-cc0a9627867a",
+        "fileName": "Test\\Framework\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5cc8d504-4ec8-4781-9f6d-afe146dab5f1",
+        "fileName": "Test\\Framework\\ProcessTestCase.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "4f6214c1-3213-4946-9240-f80fa10ff8a5",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
